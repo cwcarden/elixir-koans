@@ -18,7 +18,7 @@ defmodule Strings do
   koan "Or pulled apart into a list when needed" do
     assert ["hello", "world"] == String.split("hello world", " ")
   end
-
+#test
   koan "Be careful, a message may be altered" do
     assert String.replace("An awful day", "awful", "incredible") == ___
   end
