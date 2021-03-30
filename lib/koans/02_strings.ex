@@ -4,11 +4,11 @@ defmodule Strings do
   @intro "Strings"
 
   koan "Strings are there to represent text" do
-    assert "hello" == ___
+    assert "hello" == "hello"
   end
 
   koan "Values may be inserted into strings by interpolation" do
-    assert "1 + 1 = #{1 + 1}" == ___
+    assert "1 + 1 = #{1 + 1}" == "1 + 1 = 2"
   end
 
   koan "They can be put together" do
