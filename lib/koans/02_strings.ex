@@ -14,7 +14,7 @@ defmodule Strings do
   koan "They can be put together" do
     assert "hello world" == "hello " <> "world"
   end
-  #TEST git push
+  
   koan "Or pulled apart into a list when needed" do
     assert ["hello", "world"] == String.split(___, " ")
   end
